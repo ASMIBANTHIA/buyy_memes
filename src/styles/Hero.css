@@ -271,8 +271,8 @@
 }
 @media (max-width: 600px) {
   .common {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 30px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding: 20px;
   }
 }
