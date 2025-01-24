@@ -1,0 +1,107 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger .icon {
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.logo {
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  background-color: #f0f0f0;
+  border-radius: 9999px;
+  padding: 4px 8px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 8px;
+}
+
+.search-bar .clear-btn {
+  background: none;
+  border: none;
+  color: gray;
+  cursor: pointer;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.actions .icon {
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.actions .buy-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.actions .buy-btn:hover {
+  background-color: #333;
+}
+.Kicon {
+  display: flex;
+  padding: 7px;
+  border: #f5f5f5;
+  background-color: #f5f5f5;
+  margin-right: 5px;
+}
+.Ktag {
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .logo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .actions {
+    display: none;
+  }
+}

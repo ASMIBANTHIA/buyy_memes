@@ -1,0 +1,278 @@
+.common {
+  padding: 80px;
+  font-family: Arial, sans-serif;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.levelstart {
+  width: 67%;
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+}
+.user {
+  margin-left: 10px;
+}
+.cirdiv {
+  display: flex;
+  align-items: center;
+}
+.headerstart {
+  margin-bottom: 20px;
+}
+.headtxt {
+  font-size: 60px;
+}
+.phead {
+  font-size: 23px;
+  margin-top: 10px;
+}
+.numbers {
+  margin-top: 10px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.phototrade {
+  display: flex;
+}
+.stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.stat {
+  background-color: #f5f5f5;
+  padding: 18px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.card-container {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.card-image {
+  background-color: #d9534f;
+  height: 195px;
+  position: relative;
+}
+
+.badge-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+}
+.per {
+  margin-left: 5px;
+  color: green;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid green;
+}
+.virt {
+  display: flex;
+}
+.stat1 p {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+.stat1 h4 {
+  font-size: 16px;
+  margin: 5px 0 0;
+  color: #333;
+}
+@media (max-width: 1170px) {
+  .levelstart {
+    width: 63%;
+  }
+}
+@media (max-width: 1024px) {
+  .levelstart {
+    width: 55%;
+  }
+  .common {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding: 50px;
+  }
+  .headtxt {
+    font-size: 50px;
+  }
+  .phead {
+    font-size: 18px;
+  }
+
+  .card-image {
+    height: 165px;
+  }
+}
+@media (max-width: 768px) {
+  .headtxt {
+    font-size: 40px;
+  }
+  .levelstart {
+    width: 55%;
+  }
+  .card-container {
+    width: 250px;
+  }
+  .phead {
+    font-size: 16px;
+  }
+  .headerstart {
+    display: flex;
+    flex-direction: column;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 690px) {
+  .card-container {
+    width: 230px;
+  }
+}
+@media (max-width: 675px) {
+  .levelstart {
+    width: 50%;
+  }
+  .stats {
+    flex-direction: column !important;
+  }
+  .stat {
+    width: 100%;
+    align-items: flex-start !important;
+  }
+  .phead {
+    font-size: 13px;
+  }
+  .headtxt {
+    font-size: 35px;
+  }
+  .card-content h3 {
+    font-size: 14px;
+  }
+  .common {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+  .card-image {
+    height: 125px;
+  }
+}
+@media (max-width: 600px) {
+  .stats {
+    display: none;
+  }
+  .card-image {
+    height: 145px;
+  }
+}
+@media (max-width: 560px) {
+  .phead {
+    font-size: 12px;
+  }
+  .headtxt {
+    font-size: 30px;
+  }
+  .card-container {
+    width: 200px;
+  }
+  .card-image {
+    height: 120px;
+  }
+}
+@media (max-width: 475px) {
+  .start {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .levelstart {
+    width: 100%;
+  }
+  .card-container {
+    width: 100%;
+  }
+  .headerstart {
+    align-items: center;
+    text-align: center;
+  }
+  .phead {
+    font-size: 14px;
+  }
+  .headtxt {
+    font-size: 32px;
+  }
+}
+@media (max-width: 425px) {
+  .headerstart {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .levelstart {
+    width: 100%;
+  }
+  .card-container {
+    width: 100%;
+  }
+  .phead {
+    font-size: 12px;
+  }
+  .headtxt {
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .common {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 30px;
+  }
+}

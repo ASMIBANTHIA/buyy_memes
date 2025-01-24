@@ -1,0 +1,147 @@
+.desktop-card-container {
+  margin-top: 20px;
+}
+
+.desktop-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.desktop-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.deskinfo h3 {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.tick-icon {
+  width: 23px;
+  height: 20px;
+  margin-left: 5px;
+}
+.desktop-card:hover {
+  transform: translateY(-10px);
+}
+
+.desktop-card-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.desktop-card-content {
+  padding: 15px;
+}
+.mobti {
+  display: flex;
+}
+
+.deskinfo {
+  display: flex;
+  justify-content: space-between;
+}
+.desktop-card-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.des {
+  color: #545454;
+}
+.des1 {
+  margin-top: 10px;
+}
+.trend-percentage-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+.green-triangle {
+  border-bottom: 10px solid green;
+  border-top: none !important;
+}
+
+.red-triangle {
+  border-top: 10px solid red;
+  border-bottom: none !important;
+}
+
+.percentage-green {
+  color: green;
+}
+
+.percentage-red {
+  color: red;
+}
+
+.trend-percentage {
+  font-size: 14px;
+  font-weight: bold;
+}
+@media (max-width: 1024px) {
+  .desktop-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .desktop-cardsabout {
+    gap: 20px !important;
+  }
+}
+
+.mobile-slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.mobile-cards-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.mobile-card {
+  padding: 20px;
+  padding-left: 0px !important;
+}
+
+.mobile-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 0px;
+}
+
+.pagination-tab {
+  width: 20px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.pagination-tab.active-tab {
+  background: #343434 !important;
+}
+.trend1 {
+  margin-top: 20px;
+}
+@media (max-width: 675px) {
+  .deskinfo h3 {
+    font-size: 15px;
+  }
+}
