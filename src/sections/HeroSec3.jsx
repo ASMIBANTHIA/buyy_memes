@@ -38,6 +38,7 @@ const MobileCardSliderone = ({ cardsData }) => {
 
   return (
     <div className="mobile-slider-containerabout">
+      <h2 className="trend-title trend1">Learn More</h2>
       <div
         className="mobile-cards-sliderabout"
         style={{
@@ -51,7 +52,7 @@ const MobileCardSliderone = ({ cardsData }) => {
                 src={card.image}
                 alt={card.name}
                 width={210}
-                height={120}
+                height={80}
                 className="mobimabout"
               />
             </div>

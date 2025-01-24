@@ -64,8 +64,13 @@
   background: #343434 !important;
 }
 .mobile-card-imageabout {
-  width: 70% !important;
+  width: 100% !important;
 }
 .mobimabout {
   object-fit: contain !important;
+}
+@media (max-width: 500px) {
+  .trend-title{
+    font-size: 20px;
+  }
 }
