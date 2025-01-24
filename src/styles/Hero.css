@@ -32,11 +32,15 @@
   font-size: 60px;
 }
 .phead {
-  font-size: 23px;
+  font-size: 20px;
   margin-top: 10px;
 }
 .numbers {
   margin-top: 10px;
+}
+.init{
+  height: 25px !important;
+  width: 60px !important;
 }
 .content {
   display: flex;
@@ -148,6 +152,9 @@
   .card-image {
     height: 165px;
   }
+  .card-container{
+    width: 280px;
+  }
 }
 @media (max-width: 768px) {
   .headtxt {
@@ -157,7 +164,7 @@
     width: 55%;
   }
   .card-container {
-    width: 250px;
+    width: 240px;
   }
   .phead {
     font-size: 16px;
@@ -174,7 +181,7 @@
 }
 @media (max-width: 690px) {
   .card-container {
-    width: 230px;
+    width: 220px;
   }
 }
 @media (max-width: 675px) {

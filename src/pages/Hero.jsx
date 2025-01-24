@@ -29,7 +29,7 @@ const Hero = () => {
                 <p className="user">Total users</p>
               </div>
               <div className="phototrade numbers">
-                <Image src={photo} width={50} height={20} alt="photo" />
+                <Image src={photo} width={60} height={30} alt="photo" className="init"/>
                 <h3 className="user">52,630</h3>
               </div>
             </div>
